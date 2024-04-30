@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student's Login</title>
+    <link rel="stylesheet", href="indexstyle.css">
+</head>
+<body>
+    <div class="form">
+	<form action="submit.php" method="post">
+        <div class="formhead">
+            <img src="images/FULAFIA LOGO.png" height="100" width="110">
+        <h1>Student Information Form</h1>
+        <h3>Input your details below</h3>
+        </div>
+        
+        <br>
+
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name">
+        <br>
+		<label for="matric">Matric Number:</label>
+		<input type="text" id="matric" name="matric">
+        <br>
+		<label for="level">Level:</label>
+		<input type="text" id="level" name="level" list="levels">
+        <datalist id="levels">
+            <option value="100L"></option>
+            <option value="200L"></option>
+            <option value="300L"></option>
+            <option value="400L"></option>
+            <option value="500L"></option>
+        </datalist>
+        <br>
+		<input type="submit" value="Submit">
+	</form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #ffffff;
+    margin: 50px;
+}
+
+.successpage {
+	background-color: #ffffff00;
+	max-width: 300px;
+	margin: 50px auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.success {
+    text-align: center;
+}
+
+.success {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8b8b89;
+}
+
+.formfill {
+    text-align: center;
+    background-color: #bbbbbb;
+	color: #fff;
+    margin: auto;
+    padding: 1px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    color: #0f0f0f;
+}
+
+a[class="formfill"]:hover{
+    background-color: black;
+}
